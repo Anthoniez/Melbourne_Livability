@@ -63,9 +63,15 @@ library(sf)
 suburbs <- st_read("data/victoria/suburb_boundaries.shp")
 plot(suburbs$geometry)
 
-Author
-Anthoniez Fernando
-Data Science and AI Automation Enthusiast
-📍 Melbourne, Australia
-🔗 https://www.linkedin.com/in/jayamini-anthoniez-fernando/
-📧 jayfernandojay@gmail.com
+```  
+
+## Author
+
+**Anthoniez Fernando**  
+Data Science and AI Automation Enthusiast  
+📍 Melbourne, Australia  
+🔗 [LinkedIn](https://www.linkedin.com/in/jayamini-anthoniez-fernando/)  
+📧 [jayfernandojay@gmail.com](mailto:jayfernandojay@gmail.com)
+
+
+---
