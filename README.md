@@ -59,15 +59,16 @@ This project was developed in **R** with the following packages:
 
 ### Read and plot suburb shapefile
 ```r
+
 # Load Melbourne suburb boundaries (replace path with yours)
-suburbs <- st_read("/Users/mariaanthoniez/Documents/MelbourneLivability/data/victoria/GDA94/vic_lga.shp")  
+suburbs <- st_read("MelbourneLivability/data/victoria/GDA94/vic_lga.shp")  
 
 # Check structure
 plot(st_geometry(suburbs))
 
 
 # Load Crownlands and Parks in Victoria
-parks <- st_read("/Users/mariaanthoniez/Documents/MelbourneLivability/data/victoria/CROWNLAND/PARKRES.shp")
+parks <- st_read("MelbourneLivability/data/victoria/CROWNLAND/PARKRES.shp")
 
 # Make sure it's in the same CRS as suburbs
 parks <- st_transform(parks, crs = st_crs(suburbs))
