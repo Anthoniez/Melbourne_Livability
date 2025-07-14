@@ -110,9 +110,6 @@ tm_shape(suburbs) +
 
 ```  
 
-
-
-
 ## Author
 
 **Anthoniez Fernando**  
